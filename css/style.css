@@ -178,6 +178,7 @@ textarea {
 
 .footer-content {
     display: flex;
+    align-items: baseline;
 }
 
 
@@ -209,11 +210,6 @@ textarea {
     color: var(--footer-text-color);
 }
 
-.footer-form-block{
-    position: relative;
-    display: flex;
-    align-items: center;
-}
 
 .footer-content-item {
     margin-right: 120px;
@@ -254,16 +250,6 @@ textarea {
     background-color: #404BBF;
 }
 
-.footer-form-text {
-    position: absolute;
-    left: 0;
-    top: 0;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #FFFFFF;
-}
 
 .footer-form-input::placeholder {
     padding-top: 8px;
